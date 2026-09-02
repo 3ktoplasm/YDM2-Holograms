@@ -9,7 +9,7 @@
 						"vector": [10, 0, 0]
 					},
 					"position": {
-						"vector": [0, 20, 0]
+						"vector": [0, 7, -7]
 					}
 				},
 				"neck": {
@@ -104,6 +104,5 @@
 				}
 			}
 		}
-	},
-	"geckolib_format_version": 2
+	}
 }
