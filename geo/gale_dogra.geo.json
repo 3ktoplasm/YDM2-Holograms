@@ -1,0 +1,201 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 5,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [0, 1.25, 0]
+      },
+      "bones": [
+        {
+          "name": "body",
+          "pivot": [0, 11, 0],
+          "cubes": [
+            {
+              "origin": [-5, 7, -4],
+              "size": [10, 8, 8],
+              "uv": [42, 0]
+            }
+          ]
+        },
+        {
+          "name": "tail",
+          "parent": "body",
+          "pivot": [0, 7, -2],
+          "cubes": [
+            {
+              "origin": [-2, 0, -4],
+              "size": [4, 7, 4],
+              "uv": [42, 46]
+            }
+          ]
+        },
+        {
+          "name": "tail2",
+          "parent": "tail",
+          "pivot": [0, 0, -2],
+          "cubes": [
+            {
+              "origin": [0, -9, -5],
+              "size": [0, 9, 6],
+              "uv": [0, 56]
+            }
+          ]
+        },
+        {
+          "name": "body2",
+          "parent": "body",
+          "pivot": [0, 15, 0],
+          "cubes": [
+            {
+              "origin": [-5, 15, -4],
+              "size": [10, 8, 8],
+              "uv": [42, 16]
+            }
+          ]
+        },
+        {
+          "name": "wing2",
+          "parent": "body2",
+          "pivot": [-5, 18, 3],
+          "cubes": [
+            {
+              "origin": [-26, 2, 3],
+              "size": [21, 28, 0],
+              "uv": [0, 0],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "wing",
+          "parent": "body2",
+          "pivot": [5, 18, 3],
+          "cubes": [
+            {
+              "origin": [5, 2, 3],
+              "size": [21, 28, 0],
+              "uv": [0, 0]
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "body2",
+          "pivot": [0, 21, -1],
+          "cubes": [
+            {
+              "origin": [-4, 20, -8],
+              "size": [8, 6, 8],
+              "uv": [42, 32]
+            }
+          ]
+        },
+        {
+          "name": "antenna4",
+          "parent": "head",
+          "pivot": [1.5, 26, -6],
+          "cubes": [
+            {
+              "origin": [1, 26, -6],
+              "size": [1, 4, 0],
+              "uv": [46, 60]
+            }
+          ]
+        },
+        {
+          "name": "antenna5",
+          "parent": "antenna4",
+          "pivot": [1.5, 30, -6],
+          "cubes": [
+            {
+              "origin": [1, 30, -6],
+              "size": [1, 4, 0],
+              "uv": [46, 60]
+            }
+          ]
+        },
+        {
+          "name": "antenna6",
+          "parent": "antenna5",
+          "pivot": [1.5, 34, -6],
+          "cubes": [
+            {
+              "origin": [1, 33, -6],
+              "size": [6, 3, 0],
+              "uv": [44, 57]
+            }
+          ]
+        },
+        {
+          "name": "antenna",
+          "parent": "head",
+          "pivot": [-1.5, 26, -6],
+          "cubes": [
+            {
+              "origin": [-2, 26, -6],
+              "size": [1, 4, 0],
+              "uv": [46, 60],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "antenna2",
+          "parent": "antenna",
+          "pivot": [-1.5, 30, -6],
+          "cubes": [
+            {
+              "origin": [-2, 30, -6],
+              "size": [1, 4, 0],
+              "uv": [46, 60],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "antenna3",
+          "parent": "antenna2",
+          "pivot": [-1.5, 34, -6],
+          "cubes": [
+            {
+              "origin": [-7, 33, -6],
+              "size": [6, 3, 0],
+              "uv": [44, 57],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "mandible2",
+          "parent": "head",
+          "pivot": [1.75, 21, -8],
+          "cubes": [
+            {
+              "origin": [0.25, 21, -13],
+              "size": [3, 0, 5],
+              "uv": [12, 56]
+            }
+          ]
+        },
+        {
+          "name": "mandible",
+          "parent": "head",
+          "pivot": [-1.5, 21, -8],
+          "cubes": [
+            {
+              "origin": [-3.25, 21, -13],
+              "size": [3, 0, 5],
+              "uv": [12, 56],
+              "mirror": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
