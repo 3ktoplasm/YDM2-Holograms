@@ -1,0 +1,247 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 1024,
+        "texture_height": 1024,
+        "visible_bounds_width": 31,
+        "visible_bounds_height": 12.5,
+        "visible_bounds_offset": [0, 5.75, 0]
+      },
+      "bones": [
+        {
+          "name": "body",
+          "pivot": [0, 68.5, -0.5],
+          "cubes": [
+            {
+              "origin": [-36, 36, -33],
+              "size": [72, 65, 65],
+              "uv": [342, 442]
+            },
+            {
+              "origin": [-23, 101, -20],
+              "size": [46, 32, 39],
+              "uv": [542, 655]
+            },
+            {
+              "origin": [-12, 133, -16],
+              "size": [24, 30, 24],
+              "uv": [414, 288]
+            },
+            {
+              "origin": [12, 100, 5],
+              "size": [18, 39, 18],
+              "uv": [510, 288]
+            },
+            {
+              "origin": [-11, 128, -21],
+              "size": [22, 14, 7],
+              "pivot": [0, 135, -17.5],
+              "rotation": [-35, 0, 0],
+              "uv": [474, 171]
+            }
+          ]
+        },
+        {
+          "name": "turret2",
+          "parent": "body",
+          "pivot": [21, 139, 14],
+          "cubes": [
+            {
+              "origin": [12, 139, 5],
+              "size": [18, 11, 18],
+              "uv": [582, 288]
+            }
+          ]
+        },
+        {
+          "name": "gun3",
+          "parent": "turret2",
+          "pivot": [21, 144.5, 14],
+          "cubes": [
+            {
+              "origin": [18, 141.5, 14],
+              "size": [6, 6, 24],
+              "uv": [616, 519]
+            }
+          ]
+        },
+        {
+          "name": "gun2",
+          "parent": "body",
+          "pivot": [0, 136.44898, -20.28194],
+          "cubes": [
+            {
+              "origin": [3, 133, -33],
+              "size": [4, 4, 16],
+              "pivot": [5, 135, -17.5],
+              "rotation": [-35, 0, 0],
+              "uv": [572, 168],
+              "mirror": true
+            },
+            {
+              "origin": [-7, 133, -33],
+              "size": [4, 4, 16],
+              "pivot": [-5, 135, -17.5],
+              "rotation": [-35, 0, 0],
+              "uv": [572, 168]
+            }
+          ]
+        },
+        {
+          "name": "turret",
+          "parent": "body",
+          "pivot": [0, 162.5, -8],
+          "cubes": [
+            {
+              "origin": [-12, 163, -16],
+              "size": [24, 13, 24],
+              "uv": [474, 134]
+            }
+          ]
+        },
+        {
+          "name": "gun",
+          "parent": "turret",
+          "pivot": [0, 172, -9],
+          "cubes": [
+            {
+              "origin": [-3, 169, -33],
+              "size": [6, 6, 28],
+              "uv": [570, 134]
+            }
+          ]
+        },
+        {
+          "name": "body2",
+          "parent": "body",
+          "pivot": [0, 80, 31.5],
+          "cubes": [
+            {
+              "origin": [-28, 59, 32],
+              "size": [56, 42, 49],
+              "uv": [332, 572]
+            }
+          ]
+        },
+        {
+          "name": "body3",
+          "parent": "body2",
+          "pivot": [0, 88, 81.5],
+          "cubes": [
+            {
+              "origin": [-20, 75, 81],
+              "size": [40, 26, 51],
+              "uv": [616, 442]
+            }
+          ]
+        },
+        {
+          "name": "body4",
+          "parent": "body3",
+          "pivot": [0, 94.5, 132],
+          "cubes": [
+            {
+              "origin": [-12, 88, 132],
+              "size": [24, 13, 70],
+              "uv": [542, 572]
+            }
+          ]
+        },
+        {
+          "name": "tail",
+          "parent": "body4",
+          "pivot": [0, 94.5, 201.5],
+          "cubes": [
+            {
+              "origin": [0, 33, 167],
+              "size": [0, 123, 73],
+              "uv": [0, 533]
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "body",
+          "pivot": [0, 69.83333, -33],
+          "cubes": [
+            {
+              "origin": [0, 59, -254],
+              "size": [0, 41, 93],
+              "pivot": [0, 79.5, -158.5],
+              "rotation": [-20, 0, 0],
+              "uv": [474, 0]
+            },
+            {
+              "origin": [0, 59, -254],
+              "size": [0, 41, 93],
+              "pivot": [0, 79.5, -158.5],
+              "rotation": [0, 20, 90],
+              "uv": [474, 0]
+            },
+            {
+              "origin": [-48, 50, -174],
+              "size": [96, 51, 141],
+              "uv": [0, 0]
+            },
+            {
+              "origin": [-48, 12, -108],
+              "size": [96, 38, 75],
+              "uv": [0, 346]
+            },
+            {
+              "origin": [-48, 28, -174],
+              "size": [96, 22, 66],
+              "inflate": 0.01,
+              "uv": [414, 192]
+            }
+          ]
+        },
+        {
+          "name": "flipper2",
+          "parent": "head",
+          "pivot": [-48, 23, -49.5],
+          "cubes": [
+            {
+              "origin": [-166, 23, -88],
+              "size": [130, 0, 77],
+              "uv": [0, 192]
+            }
+          ]
+        },
+        {
+          "name": "flipper",
+          "parent": "head",
+          "pivot": [48, 23, -49.5],
+          "cubes": [
+            {
+              "origin": [36, 23, -88],
+              "size": [130, 0, 77],
+              "uv": [0, 192],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "jaw",
+          "parent": "head",
+          "pivot": [0, 20, -108.25],
+          "cubes": [
+            {
+              "origin": [-48, 12, -174],
+              "size": [96, 8, 66],
+              "uv": [0, 459]
+            },
+            {
+              "origin": [-48, 20, -174],
+              "size": [96, 22, 66],
+              "uv": [342, 346]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
