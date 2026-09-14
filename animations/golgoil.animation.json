@@ -7,6 +7,9 @@
 				"lower_body": {
 					"rotation": {
 						"vector": [25, 0, 0]
+					},
+					"position": {
+						"vector": [0, -33, 0]
 					}
 				},
 				"upper_body": {
@@ -76,6 +79,5 @@
 				}
 			}
 		}
-	},
-	"geckolib_format_version": 2
+	}
 }
